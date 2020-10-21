@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://hut75.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://hut75.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Blog</title>
+      <link>https://hut75.github.io/my-first-blog/</link>
+      <pubDate>Wed, 21 Oct 2020 23:30:17 +0800</pubDate>
+      
+      <guid>https://hut75.github.io/my-first-blog/</guid>
+      <description>Markdown的使用 1.多级标题 n级标题，前面加n个 #
+2.段落 段落换行：用两个空格+回车
+​ 第一段
+​ 第二段
+3.字体 斜体：前后1个*或_， *斜体文本* _斜体文本_
+粗体：前后2* 或 2_ ， **粗体文本**, __粗体__
+粗斜体： 前后 3* 或 3_ ， ***粗斜体文本*** ___粗斜体文本___
+4.分隔线 一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。
+也可在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：
+   5.删除线 文字的两端加上两个波浪线 ~~
+www.baidu.com
+6.下划线 通过 HTML 的 &amp;lt;u&amp;gt;标签来实现
+下划线文本7. 脚注 [^要注明的文本]
+创建脚注格式类似这样 [^RUNOOB]
+8.列表 Markdown支持有序列表、无序列表
+无序列表使用(*)、(+)、(-)作为列表标记，标记后加一个空格
+ 第一点 第二点   第三点   第四点  有序列表，使用数字加上 .
+ 第一项 第二项  列表嵌套：
+ 第一项  第一项，第一点 第一项，第二点   第二项  第二项，第一点 第二项，第二点    9.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://hut75.github.io/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://hut75.github.io/posts/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://hut75.github.io/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://hut75.github.io/posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/▾ images/logo.png should become
+▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Test 9</title>
+      <link>https://hut75.github.io/posts/test-9/</link>
+      <pubDate>Thu, 09 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/test-9/</guid>
+      <description>Test 9</description>
+    </item>
+    
+    <item>
+      <title>Test 8</title>
+      <link>https://hut75.github.io/posts/test-8/</link>
+      <pubDate>Wed, 08 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/test-8/</guid>
+      <description>Test 8</description>
+    </item>
+    
+    <item>
+      <title>Test 7</title>
+      <link>https://hut75.github.io/posts/test-7/</link>
+      <pubDate>Tue, 07 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/test-7/</guid>
+      <description>Test 7</description>
+    </item>
+    
+    <item>
+      <title>Test 6</title>
+      <link>https://hut75.github.io/posts/test-6/</link>
+      <pubDate>Mon, 06 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/test-6/</guid>
+      <description>Test 6</description>
+    </item>
+    
+    <item>
+      <title>Test 5</title>
+      <link>https://hut75.github.io/posts/test-5/</link>
+      <pubDate>Sun, 05 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/test-5/</guid>
+      <description>Test 5</description>
+    </item>
+    
+    <item>
+      <title>Test 4</title>
+      <link>https://hut75.github.io/posts/test-4/</link>
+      <pubDate>Sat, 04 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/test-4/</guid>
+      <description>Test 4</description>
+    </item>
+    
+    <item>
+      <title>Test 3</title>
+      <link>https://hut75.github.io/posts/test-3/</link>
+      <pubDate>Fri, 03 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/test-3/</guid>
+      <description>Test 3</description>
+    </item>
+    
+    <item>
+      <title>Test 2</title>
+      <link>https://hut75.github.io/posts/test-2/</link>
+      <pubDate>Thu, 02 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/test-2/</guid>
+      <description>Test 2</description>
+    </item>
+    
+    <item>
+      <title>Test 1</title>
+      <link>https://hut75.github.io/posts/test-1/</link>
+      <pubDate>Wed, 01 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/posts/test-1/</guid>
+      <description>Test 1 I am referencing a footnote1
+  I am the footnote &amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hut75.github.io/how-to-use-markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hut75.github.io/how-to-use-markdown/</guid>
+      <description>Markdown的使用 1.多级标题 n级标题，前面加n个 #
+2.段落 段落换行：用两个空格+回车
+​ 第一段
+​ 第二段
+3.字体 斜体：前后1个*或_， *斜体文本* _斜体文本_
+粗体：前后2* 或 2_ ， **粗体文本**, __粗体__
+粗斜体： 前后 3* 或 3_ ， ***粗斜体文本*** ___粗斜体文本___
+4.分隔线 一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。
+也可在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：
+   5.删除线 文字的两端加上两个波浪线 ~~
+www.baidu.com
+6.下划线 通过 HTML 的 &amp;lt;u&amp;gt;标签来实现
+下划线文本7. 脚注 [^要注明的文本]
+创建脚注格式类似这样 [^RUNOOB]
+8.列表 Markdown支持有序列表、无序列表
+无序列表使用(*)、(+)、(-)作为列表标记，标记后加一个空格
+ 第一点 第二点   第三点   第四点  有序列表，使用数字加上 .
+ 第一项 第二项  列表嵌套：
+ 第一项  第一项，第一点 第一项，第二点   第二项  第二项，第一点 第二项，第二点    9.</description>
+    </item>
+    
+  </channel>
+</rss>

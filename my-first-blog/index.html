@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>My First Blog // My New Hugo Site</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.75.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://hut75.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="My First Blog"/>
+<meta name="twitter:description" content="Markdown的使用 1.多级标题 n级标题，前面加n个 #
+2.段落 段落换行：用两个空格&#43;回车
+​ 第一段
+​ 第二段
+3.字体 斜体：前后1个*或_， *斜体文本* _斜体文本_
+粗体：前后2* 或 2_ ， **粗体文本**, __粗体__
+粗斜体： 前后 3* 或 3_ ， ***粗斜体文本*** ___粗斜体文本___
+4.分隔线 一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。
+也可在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：
+   5.删除线 文字的两端加上两个波浪线 ~~
+www.baidu.com
+6.下划线 通过 HTML 的 &lt;u&gt;标签来实现
+下划线文本7. 脚注 [^要注明的文本]
+创建脚注格式类似这样 [^RUNOOB]
+8.列表 Markdown支持有序列表、无序列表
+无序列表使用(*)、(&#43;)、(-)作为列表标记，标记后加一个空格
+ 第一点 第二点   第三点   第四点  有序列表，使用数字加上 .
+ 第一项 第二项  列表嵌套：
+ 第一项  第一项，第一点 第一项，第二点   第二项  第二项，第一点 第二项，第二点    9."/>
+
+    <meta property="og:title" content="My First Blog" />
+<meta property="og:description" content="Markdown的使用 1.多级标题 n级标题，前面加n个 #
+2.段落 段落换行：用两个空格&#43;回车
+​ 第一段
+​ 第二段
+3.字体 斜体：前后1个*或_， *斜体文本* _斜体文本_
+粗体：前后2* 或 2_ ， **粗体文本**, __粗体__
+粗斜体： 前后 3* 或 3_ ， ***粗斜体文本*** ___粗斜体文本___
+4.分隔线 一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。
+也可在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：
+   5.删除线 文字的两端加上两个波浪线 ~~
+www.baidu.com
+6.下划线 通过 HTML 的 &lt;u&gt;标签来实现
+下划线文本7. 脚注 [^要注明的文本]
+创建脚注格式类似这样 [^RUNOOB]
+8.列表 Markdown支持有序列表、无序列表
+无序列表使用(*)、(&#43;)、(-)作为列表标记，标记后加一个空格
+ 第一点 第二点   第三点   第四点  有序列表，使用数字加上 .
+ 第一项 第二项  列表嵌套：
+ 第一项  第一项，第一点 第一项，第二点   第二项  第二项，第一点 第二项，第二点    9." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hut75.github.io/my-first-blog/" />
+<meta property="article:published_time" content="2020-10-21T23:30:17+08:00" />
+<meta property="article:modified_time" content="2020-10-21T23:30:17+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://hut75.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>My New Hugo Site</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+      </nav>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/gohugoio" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/gohugoio" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">My First Blog</h1>
+    </header>
+    <div class="post-content">
+      <h1 id="markdown的使用">Markdown的使用</h1>
+<h2 id="1多级标题">1.多级标题</h2>
+<p>n级标题，前面加n个 #</p>
+<h2 id="2段落">2.段落</h2>
+<p>段落换行：用两个空格+回车</p>
+<p>​        第一段</p>
+<p>​        第二段</p>
+<h2 id="3字体">3.字体</h2>
+<p>斜体：前后1个*或_，    *斜体文本* _斜体文本_</p>
+<p>粗体：前后2* 或 2_ ， **粗体文本**,   __粗体__</p>
+<p>粗斜体： 前后 3*  或 3_  ， ***粗斜体文本***  ___粗斜体文本___</p>
+<h2 id="4分隔线">4.分隔线</h2>
+<p>一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。</p>
+<p>也可在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<hr>
+<hr>
+<hr>
+<h2 id="5删除线">5.删除线</h2>
+<p>文字的两端加上两个波浪线 <strong>~~</strong></p>
+<p><del><a href="http://www.baidu.com">www.baidu.com</a></del></p>
+<h2 id="6下划线">6.下划线</h2>
+<p>通过 HTML 的 <code>&lt;u&gt;</code>标签来实现</p>
+<p><!-- raw HTML omitted -->下划线文本<!-- raw HTML omitted --></p>
+<h2 id="7-脚注">7. 脚注</h2>
+<p>[^要注明的文本]</p>
+<p>创建脚注格式类似这样 [^RUNOOB]</p>
+<h2 id="8列表">8.列表</h2>
+<p>Markdown支持有序列表、无序列表</p>
+<p>无序列表使用(*)、(+)、(-)作为列表标记，标记后加一个空格</p>
+<ul>
+<li>第一点</li>
+<li>第二点</li>
+</ul>
+<ul>
+<li>第三点</li>
+</ul>
+<ul>
+<li>第四点</li>
+</ul>
+<p>有序列表，使用数字加上 .</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<p>列表嵌套：</p>
+<ol>
+<li>第一项
+<ul>
+<li>第一项，第一点</li>
+<li>第一项，第二点</li>
+</ul>
+</li>
+<li>第二项
+<ul>
+<li>第二项，第一点</li>
+<li>第二项，第二点</li>
+</ul>
+</li>
+</ol>
+<h2 id="9区块">9.区块</h2>
+<p>段落开头使用 <strong>&gt;</strong> 符号 ，后面一个<strong>空格</strong>，支持分层嵌套</p>
+<blockquote>
+<p>区块1</p>
+<p>区块2</p>
+<blockquote>
+<p>第一层嵌套，区块中用列表</p>
+<ol>
+<li>第一项</li>
+</ol>
+<ul>
+<li>第一条</li>
+</ul>
+</blockquote>
+</blockquote>
+<p>列表中使用区块，在 <strong>&gt;</strong> 前添加四个空格的缩进</p>
+<ul>
+<li>第一条
+<blockquote>
+<p>第一点
+第二点</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="10markdown代码">10.Markdown代码</h2>
+<p>段落上的一个函数或片段的代码可以用<strong>反引号</strong>把它包起来(**<code>**)，例如：</code>printf()`函数</p>
+<p><strong>代码区块</strong>：<strong>4个空格</strong> 或 一个<strong>制表符(Tab)</strong>，例如：
+&lt;?php
+echo &lsquo;RUNOOB&rsquo;;
+function test(){
+echo &lsquo;test&rsquo;;
+}
+也可以 **```**包裹代码段，并制定语言(也可不指定)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">$</span>(document).<span style="color:#a6e22e">ready</span>(<span style="color:#66d9ef">function</span>(){
+    <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#39;RUNOOB&#39;</span>);
+})
+</code></pre></div><h2 id="11markdown链接">11.Markdown链接</h2>
+<p>链接用法：
+<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a>
+或者
+&lt;链接地址&gt;
+例如：
+谷歌的链接：<a href="https://www.google.com">谷歌一下</a>
+链接：<a href="https://www.google.com">https://www.google.com</a></p>
+<p><strong>高级链接</strong>
+<strong>用变量来设置链接，变量赋值在文末进行：</strong>
+这儿用1作为网址变量<a href="https://www.google.com">Google</a>
+这儿用baidu作为网址变量<a href="https://www.baidu.com">BaiDu</a>
+然后在文末为变量赋值(赋值)</p>
+<h2 id="12markdown图片">12.Markdown图片</h2>
+<p>图片语法格式：
+<img src="%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="alt 属性文本">
+<img src="%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="alt 属性文本" title="可选标题"></p>
+<p>开头感叹号 !
+接着方括号，放图片的替代文字
+接着普通括号，放上图片的网址，最后还可以用引号包住加上选择性的 &lsquo;title&rsquo; 属性的文字。</p>
+<p><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标">
+<img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标" title="RUNOOB"></p>
+<p>也可以像网址那样对图片网址使用变量:
+这个链接用 1 作为网址变量 <a href="http://static.runoob.com/images/runoob-logo.png">RUNOOB</a>.
+在文档的结尾为变量赋值（网址）</p>
+<p>Markdown 没法指定图片高度与宽度，需要的话，可用普通的 <!-- raw HTML omitted --> 标签。</p>
+<!-- raw HTML omitted -->
+<h2 id="13markdown表格">13.Markdown表格</h2>
+<p>用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行，格式如下：</p>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody>
+</table>
+<p>对齐方式：</p>
+<ul>
+<li><strong>-:</strong> 设置内容和标题栏居右对齐。</li>
+<li><strong>:-</strong> 设置内容和标题栏居左对齐。</li>
+<li><strong>:-:</strong> 设置内容和标题栏居中对齐</li>
+</ul>
+<p>例如：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:right">右对齐</th>
+<th style="text-align:center">居中对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+</tbody>
+</table>
+<h2 id="14markdoan高级技巧">14.Markdoan高级技巧</h2>
+<h3 id="141支持的-html-元素">14.1支持的 HTML 元素</h3>
+<p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
+<p>目前支持的 HTML 元素有：<code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>等 ，如：
+支持的 HTML 元素
+不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
+<p>目前支持的 HTML 元素有：<code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>等 ，如：
+使用 <!-- raw HTML omitted -->Ctrl<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Alt<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Del<!-- raw HTML omitted --> 重启电脑</p>
+<h3 id="142转义">14.2转义</h3>
+<p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：
+<strong>文本加粗</strong>
+** 正常显示星号 * *
+Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<pre><code>\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号
+</code></pre><h3 id="143公式">14.3公式</h3>
+<p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>
+\end{vmatrix}
+${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$</p>
+<h2 id="15-typora画流程图时序图顺序图甘特图">15 typora画流程图、时序图(顺序图)、甘特图</h2>
+<p>1、横向流程图源码格式：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph LR
+A[方形] --&gt;B(圆角)
+    B --&gt; C{条件a}
+    C --&gt;|a=1| D[结果1]
+    C --&gt;|a=2| E[结果2]
+    F[横向流程图]
+</code></pre><p><strong>2、竖向流程图源码格式：</strong></p>
+<pre><code class="language-mermaid" data-lang="mermaid">graph TD
+A[方形] --&gt; B(圆角)
+    B --&gt; C{条件a}
+    C --&gt; |a=1| D[结果1]
+    C --&gt; |a=2| E[结果2]
+    F[竖向流程图]
+</code></pre><p><strong>3、标准流程图源码格式：</strong></p>
+<pre><code class="language-flow" data-lang="flow">st=&gt;start: 开始框
+op=&gt;operation: 处理框
+cond=&gt;condition: 判断框(是或否?)
+sub1=&gt;subroutine: 子流程
+io=&gt;inputoutput: 输入输出框
+e=&gt;end: 结束框
+st-&gt;op-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op
+</code></pre><p><strong>4、标准流程图源码格式（横向）：</strong></p>
+<pre><code class="language-flow" data-lang="flow">st=&gt;start: 开始框
+op=&gt;operation: 处理框
+cond=&gt;condition: 判断框(是或否?)
+sub1=&gt;subroutine: 子流程
+io=&gt;inputoutput: 输入输出框
+e=&gt;end: 结束框
+st(right)-&gt;op(right)-&gt;cond
+cond(yes)-&gt;io(bottom)-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op
+</code></pre><p><strong>5、UML时序图源码样例：</strong></p>
+<pre><code class="language-sequence" data-lang="sequence">对象A-&gt;对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B--&gt;对象A: 我很好(响应)
+对象A-&gt;对象B: 你真的好吗？
+</code></pre><p><strong>6、UML时序图源码复杂样例：</strong></p>
+<pre><code class="language-sequence" data-lang="sequence">Title: 标题：复杂使用
+对象A-&gt;对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B--&gt;对象A: 我很好(响应)
+对象B-&gt;小三: 你好吗
+小三--&gt;&gt;对象A: 对象B找我了
+对象A-&gt;对象B: 你真的好吗？
+Note over 小三,对象B: 我们是朋友
+participant C
+Note right of C: 没人陪我玩
+</code></pre><p>7、UML标准时序图样例：</p>
+<pre><code class="language-mermaid" data-lang="mermaid">%% 时序图例子,-&gt; 直线，--&gt;虚线，-&gt;&gt;实线箭头
+  sequenceDiagram
+    participant 张三
+    participant 李四
+    张三-&gt;王五: 王五你好吗？
+    loop 健康检查
+        王五-&gt;王五: 与疾病战斗
+    end
+    Note right of 王五: 合理 食物 &lt;br/&gt;看医生...
+    李四--&gt;&gt;张三: 很好!
+    王五-&gt;李四: 你怎么样?
+    李四--&gt;王五: 很好!
+</code></pre><p><strong>8、甘特图样例：</strong></p>
+<pre><code class="language-mermaid" data-lang="mermaid">%% 语法示例
+        gantt
+        dateFormat  YYYY-MM-DD
+        title 软件开发甘特图
+        section 设计
+        需求                      :done,    des1, 2014-01-06,2014-01-08
+        原型                      :active,  des2, 2014-01-09, 3d
+        UI设计                     :         des3, after des2, 5d
+    未来任务                     :         des4, after des3, 5d
+        section 开发
+        学习准备理解需求                      :crit, done, 2014-01-06,24h
+        设计框架                             :crit, done, after des2, 2d
+        开发                                 :crit, active, 3d
+        未来任务                              :crit, 5d
+        耍                                   :2d
+        section 测试
+        功能测试                              :active, a1, after des3, 3d
+        压力测试                               :after a1  , 20h
+        测试报告                               : 48h
+</code></pre>
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
